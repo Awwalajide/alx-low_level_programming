@@ -10,24 +10,26 @@
 int main(void)
 
 {
-	int ones = '0';
-	int tens = '0';
+	int n, m;
 
-	for (tens = '0'; tens <= '0'; tens++)/* prints tens diit*/
-		for (onces = '0'; onces <= '0'; onces++)/* prints onces diit*/
-			if (!((onces == tens) || (tens ones)))/*eliminates repitition*/
-			{
-				putchar(tens);
-				putchar(ones);
-				if (!(ones == '9' && tens == '8'))/*addes comma and space*/
+	for (n = 48; n <= 56; n++)
+	{
+		for (m = 49; m <= 57; m++)
+		{	
+			if (m > n)
+			{	
+				putchar(n);
+				putchar(m);
+				if (n !=56 || m !=57)
 				{
 					putchar(',');
 					putchar(' ');
-				}
+				}	
 			}
-		}
+		}	
 	}
-	
 	putchar('\n');
-
 	return (0);
+
+}
+
