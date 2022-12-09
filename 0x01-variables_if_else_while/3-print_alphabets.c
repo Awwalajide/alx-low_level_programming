@@ -14,13 +14,13 @@ int main(void)
 
 	ch = 'a';
 	CH = 'A';
-while 
+	while
 		(ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-while 
+	while
 		(CH <= 'Z')
 	{
 		putchar(CH);
