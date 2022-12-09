@@ -5,7 +5,7 @@
 /**
  *  more - main fuction to generate a randon number
  *
- *  Return: Always 0 (Sucess)
+ *  Return: Always 0 (Success)
  *
  */
 
