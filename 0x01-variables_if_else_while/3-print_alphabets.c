@@ -8,23 +8,23 @@
  */
 int main(void)
 {
-	char c;
+	char ch;
 
-	char d;
+	char CH;
 
-	c = 'a';
-	d = 'A';
+	ch = 'a';
+	CH = 'A';
 	while 
-		(c <= 'z')
+		(ch <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
+		ch++;
 	}
 	while 
-		(d <= 'z')
+		(CH <= 'Z')
 	{
-		putchar(c);
-		d++;
+		putchar(CH);
+		CH++;
 	}
 
 	putchar('\n');
